@@ -69,15 +69,24 @@ cd nvidia-nim
 
 **Run this** 
 
+MacOS and Linux:
+
 ```
 cp .env.example .env
 ```
+Powershell:
+
+```
+Copy-Item .env.example .env
+```
+
 
 **Run nvidia nim**
 
 ```
 uv run uvicorn server:app --host 0.0.0.0 --port 8082
 ```
+**Note:** You always have to keep running this API Server in the background to use Nvida Nim with Claude Code.
 
 **Install claude code**
 
@@ -87,9 +96,17 @@ curl -fsSL https://claude.ai/install.sh | bash
 
 **Run claude code**
 
+PowerShell:
+
+```
+$env:ANTHROPIC_AUTH_TOKEN="freecc"; $env:ANTHROPIC_BASE_URL="http://localhost:8082"; claude
+```
+
+Bash:
 ```
 ANTHROPIC_AUTH_TOKEN="freecc" ANTHROPIC_BASE_URL="http://localhost:8082" claude
 ```
+**Note:** You always need to write this command to run Claude Code with your free NVIDIA NIM model.
 
 <hr>
 
