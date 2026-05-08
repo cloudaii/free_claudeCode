@@ -66,7 +66,7 @@ git clone https://github.com/Alishahryar1/free-claude-code.git nvidia-nim
 ```
 cd nvidia-nim
 ```
-|
+
 
 **Run this** 
 
@@ -119,3 +119,15 @@ ANTHROPIC_AUTH_TOKEN="freecc" ANTHROPIC_BASE_URL="http://localhost:8082" claude
 
 • **No More Limits**: Skip the $20/month fee and the frustrating "rate limit reached" messages.
 
+---
+
+### 3. The "Details" Accordion
+If you want a container that is interactive (can open and close), use the `<details>` tag. This creates a rounded box on many platforms like GitHub.
+
+```html
+<details style="border: 1px solid #aaa; border-radius: 10px; padding: 0.5em 0.5em 0;">
+  <summary style="font-weight: bold; cursor: pointer;">View Commands</summary>
+  <br>
+  <code>sudo apt update</code><br>
+  <code>sudo apt upgrade</code>
+</details>
