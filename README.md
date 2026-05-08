@@ -61,11 +61,16 @@ cd local
 git clone https://github.com/Alishahryar1/free-claude-code.git nvidia-nim
 ```
 
+
+| Content Container |
+| :--- |
+| 
 **Navigate** 
 
 ```
 cd nvidia-nim
 ```
+|
 
 **Run this** 
 
