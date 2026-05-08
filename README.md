@@ -3,15 +3,14 @@
 Tired of hitting usage caps on the official Claude Code CLI or watching your local machine crawl while trying to run heavy models? You don't need a $5,000 rig or a pricey monthly subscription to get elite-level AI coding assistance.
 By leveraging NVIDIA NIM and a simple proxy server, you can bypass local hardware limitations and expensive API costs. Here is your step-by-step guide to setting up a "Free Unlimited" Claude Code environment.
 
-<br>
 
-**Nvidia NIM API key**
+**Nvidia NIM API key**:
 https://build.nvidia.com/
 
-**OpenRouter API key**
+**OpenRouter API key**:
 https://openrouter.ai/workspaces/default/keys?hl=en-US
 
-**DeepSeek API key**
+**DeepSeek API key**:
 https://platform.deepseek.com/sign_in
 
 <hr>
@@ -91,6 +90,8 @@ curl -fsSL https://claude.ai/install.sh | bash
 ```
 ANTHROPIC_AUTH_TOKEN="freecc" ANTHROPIC_BASE_URL="http://localhost:8082" claude
 ```
+
+<hr>
 
 # Why This Method Beats Local LLMs
 
