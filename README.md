@@ -2,6 +2,15 @@
 
 # Claude Code Unlimited (free)
 
+# nvidia nim api key 
+https://build.nvidia.com/
+
+# run this in power shell 
+
+```
+wsl --install
+```
+
 # Run this command install uv
 
 ```
@@ -22,7 +31,6 @@ mkdir local
 
 ```
 cd local
-
 ```
 
 
