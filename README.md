@@ -3,7 +3,7 @@
 Tired of hitting usage caps on the official Claude Code CLI or watching your local machine crawl while trying to run heavy models? You don't need a $5,000 rig or a pricey monthly subscription to get elite-level AI coding assistance.
 By leveraging NVIDIA NIM and a simple proxy server, you can bypass local hardware limitations and expensive API costs. Here is your step-by-step guide to setting up a "Free Unlimited" Claude Code environment.
 
-
+<code>
 ` **Nvidia NIM API key:**
 https://build.nvidia.com/
 
@@ -12,7 +12,7 @@ https://openrouter.ai/workspaces/default/keys?hl=en-US
 
 **DeepSeek API key:**:
 https://platform.deepseek.com/sign_in `
-
+</code>
 <hr>
 
 # Prerequisites & Environment Setup
@@ -28,9 +28,9 @@ wsl --install
 
 **Run this command install uv**
 
-` **official website**
+<code>**official website**
 
-https://docs.astral.sh/uv/getting-started/installation/ `
+https://docs.astral.sh/uv/getting-started/installation/</code>
 
 ```
 curl -LsSf https://astral.sh/uv/install.sh | sh
@@ -120,13 +120,3 @@ ANTHROPIC_AUTH_TOKEN="freecc" ANTHROPIC_BASE_URL="http://localhost:8082" claude
 • **Better Intelligence**: Local models often struggle with complex logic. By using NVIDIA NIM, you access high-tier models that maintain the "smartness" required for production-grade coding.
 
 • **No More Limits**: Skip the $20/month fee and the frustrating "rate limit reached" messages.
-
-<code>
-hjnd
-sddkkd
-sdkdmd
-jsks
-```
-kdmd
-```
-</code>
