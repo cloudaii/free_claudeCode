@@ -5,78 +5,89 @@ By leveraging NVIDIA NIM and a simple proxy server, you can bypass local hardwar
 
 <br>
 
-# Nvidia NIM API key 
+**Nvidia NIM API key**
 https://build.nvidia.com/
 
-# OpenRouter API key
+**OpenRouter API key**
 https://openrouter.ai/workspaces/default/keys?hl=en-US
 
-# DeepSeek API key
+**DeepSeek API key**
 https://platform.deepseek.com/sign_in
 
-<br>
+<hr>
 
 # Prerequisites & Environment Setup
 
 Before we start, we need UV, the ultra-fast Python package installer, to manage our proxy server.
 
 
-# Run this in power shell 
+**Run this in power shell** 
 
 ```
 wsl --install
 ```
 
-# Run this command install uv
+**Run this command install uv**
+
 **official website**
+
 https://docs.astral.sh/uv/getting-started/installation/
+
 ```
 curl -LsSf https://astral.sh/uv/install.sh | sh
 ```
 
-# Install python 
+**Install python**
 
 ```
 uv python install 3.14
 ```
-# Create folder 
+
+**Create folder**
 
 ```
 mkdir local
 ```
-# Navigate 
+
+**Navigate**
 
 ```
 cd local
 ```
 
 
-# Clone git repo
+**Clone git repo**
 
 ```
 git clone https://github.com/Alishahryar1/free-claude-code.git nvidia-nim
 ```
 
-# Navigate 
+**Navigate** 
+
 ```
 cd nvidia-nim
 ```
-# Run this 
+
+**Run this** 
 
 ```
 cp .env.example .env
 ```
 
-# Run nvidia nim
+**Run nvidia nim**
+
 ```
 uv run uvicorn server:app --host 0.0.0.0 --port 8082
 ```
 
-# Install claude code
+**Install claude code**
+
 ```
 curl -fsSL https://claude.ai/install.sh | bash
 ```
-# Run claude code 
+
+**Run claude code**
+
 ```
 ANTHROPIC_AUTH_TOKEN="freecc" ANTHROPIC_BASE_URL="http://localhost:8082" claude
 ```
