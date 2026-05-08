@@ -118,16 +118,3 @@ ANTHROPIC_AUTH_TOKEN="freecc" ANTHROPIC_BASE_URL="http://localhost:8082" claude
 • **Better Intelligence**: Local models often struggle with complex logic. By using NVIDIA NIM, you access high-tier models that maintain the "smartness" required for production-grade coding.
 
 • **No More Limits**: Skip the $20/month fee and the frustrating "rate limit reached" messages.
-
----
-
-### 3. The "Details" Accordion
-If you want a container that is interactive (can open and close), use the `<details>` tag. This creates a rounded box on many platforms like GitHub.
-
-```html
-<details style="border: 1px solid #aaa; border-radius: 10px; padding: 0.5em 0.5em 0;">
-  <summary style="font-weight: bold; cursor: pointer;">View Commands</summary>
-  <br>
-  <code>sudo apt update</code><br>
-  <code>sudo apt upgrade</code>
-</details>
