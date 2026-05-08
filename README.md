@@ -89,6 +89,8 @@ uv run uvicorn server:app --host 0.0.0.0 --port 8082
 ```
 **Note:** You always have to keep running this API Server in the background to use Nvida Nim with Claude Code.
 
+<hr>
+
 **Install claude code**
 
 ```
