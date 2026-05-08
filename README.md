@@ -4,14 +4,14 @@ Tired of hitting usage caps on the official Claude Code CLI or watching your loc
 By leveraging NVIDIA NIM and a simple proxy server, you can bypass local hardware limitations and expensive API costs. Here is your step-by-step guide to setting up a "Free Unlimited" Claude Code environment.
 
 
-**Nvidia NIM API key:**
+`**Nvidia NIM API key:**
 https://build.nvidia.com/
 
 **OpenRouter API key:**
 https://openrouter.ai/workspaces/default/keys?hl=en-US
 
 **DeepSeek API key:**:
-https://platform.deepseek.com/sign_in
+https://platform.deepseek.com/sign_in`
 
 <hr>
 
@@ -28,9 +28,9 @@ wsl --install
 
 **Run this command install uv**
 
-**official website**
+`**official website**
 
-https://docs.astral.sh/uv/getting-started/installation/
+https://docs.astral.sh/uv/getting-started/installation/`
 
 ```
 curl -LsSf https://astral.sh/uv/install.sh | sh
