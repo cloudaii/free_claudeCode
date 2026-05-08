@@ -121,8 +121,12 @@ ANTHROPIC_AUTH_TOKEN="freecc" ANTHROPIC_BASE_URL="http://localhost:8082" claude
 
 • **No More Limits**: Skip the $20/month fee and the frustrating "rate limit reached" messages.
 
-
-<div style="padding: 15px; border: 1px solid #30363d; border-radius: 12px; background-color: #161b22;">
-  <h3>Container Title</h3>
-  <p>Your content or commands go here. The <code>border-radius</code> property creates the rounded corner look.</p>
-</div>
+<code>
+hjnd
+sddkkd
+sdkdmd
+jsks
+```
+kdmd
+```
+</code>
